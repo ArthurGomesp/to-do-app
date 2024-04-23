@@ -1,27 +1,41 @@
-# ToDoApp
+# Projeto Angular To-Do
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+Este é o frontend do projeto To-Do, desenvolvido em Angular. O projeto é uma aplicação de lista de tarefas que permite aos usuários criar, visualizar, editar e excluir tarefas.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Interface de usuário amigável para gerenciar tarefas.
+- Autenticação de usuário com páginas de login e registro.
+- Proteção de rotas para garantir acesso seguro às funcionalidades.
+- Integração com o backend Spring através de API RESTful.
+- Armazenamento local das tarefas usando LocalStorage.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Node.js e npm instalados globalmente.
+- Angular CLI instalado globalmente (`npm install -g @angular/cli`).
 
-## Build
+## Instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório.
+2. Navegue até o diretório do projeto: `cd projeto-angular-todo`.
+3. Instale as dependências: `npm install`.
 
-## Running unit tests
+## Como Executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute `ng serve` para iniciar o servidor de desenvolvimento. Navegue até `http://localhost:4200/` para visualizar a aplicação no navegador.
 
-## Running end-to-end tests
+## Tecnologias Utilizadas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular
+- TypeScript
+- HTML/CSS
+- Bootstrap (ou outra biblioteca de UI)
 
-## Further help
+## Contribuição
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contribuições são bem-vindas! Para mudanças importantes, abra um problema primeiro para discutir o que você gostaria de mudar.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
